@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+
+}
+.navlinks {
+    display:flex;
+    justify-content:right
+}
+.navlinks li { 
+    list-style: none;
+    margin: 20px;   
+}
+.navlinks li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: #fff;
+    transition:all .3s ;
+
+}
+.navlinks li a:hover {
+    background-color:#4c424247 ;
+    padding: 37px ;
+    border-radius: 10px ;
+}
+
+body {
+    background:url(img/will-van-wingerden-dsvJgiBJTOs-unsplash.jpg) ;
+    background-repeat:no-repeat;
+}
+
+.logo {
+    display: flex;
+    justify-content:center;
+    align-items:center ;
+    width: 1100px;
+    height: 100vh;
+    background-color: #ffffffaa;
+    position:absolute;
+    top: 0%;
+    left: 0;
+    border-radius: 10px;
+}
+.slogan{
+    position:absolute;
+    top:calc(55% + 15px);
+    color: black;
+    font-weight: 500;
+}
+.img {
+    width:300px; 
+    position: absolute;
+    top: 20%;
+    right: 37%;
+}
+.content {
+    width:500px;
+    text-align: center;
+}
+
+.tittle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size:5rem;
+    display: inline-block;
+    position:absolute;
+    left: calc(25% + 10px) ;
+    top: 47%;
+}
+.home {
+    position: absolute;
+    right: calc(0% + 200px);
+    top: 28%;
+    background-color: #000000a2;
+    padding: 20px;
+    border-radius: 10px;
+    transition:all .3s ;
+}
+
+.home:hover {
+    padding: 50px;
+    
+}
+
+.home-title {
+    color: #fff;
+    font-size: 48px;
+}
+.home-description, p {
+    width: 500px;
+    color: #fff;
+    font-size: 20px;
+
+}
+.link{
+    position:absolute ;
+}
+.media img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 1%;
+    top:calc(90% + 30px);
+    filter: invert(1);
+    transition:all .3s ;
+}
+.media img:hover{
+    padding: 5px;
+
+}
+.twiter img{
+    position: absolute;
+    right: 5%;
+}
