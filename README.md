@@ -1,2 +1,2 @@
 # SEMINARIO-DE-SIDNEY-
-repositório do projeto para o seminário de Sidney.
+repositório do projeto para o seminário de Sidney inhaaaaa
